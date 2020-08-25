@@ -5,7 +5,7 @@ Pytorch implementation of ideas from the paper [Neural Wireframe Renderer: Learn
 * Tested on CentOS 7
 * Python >= 3.6
 * [PyTorch](https://pytorch.org) >= 1.0
-* TensorboardX >= 1.6 with Tensorboard
+* TensorboardX >= 1.6
 
 ### Dataset
 * You can download the data from [here](https://github.com/huangkuns/wireframe). By default, pelease extract all files inside ``v1.1`` to the ``data/raw_data/imgs`` folder, and extract all files inside ``pointlines``  to the ``data/raw_data/pointlines`` folder.
@@ -21,11 +21,11 @@ We support both single gpu training and multi-gpu training with Jiayuan Mao's [S
 
 **Example Single GPU Training**
 
-If you are training with colorguided rendering:
+If you are training with color guided rendering:
 ```
 python train.py --gpu 0 --batch_size 14
 ```
-If you are training without colorguided rendering:
+If you are training without color guided rendering:
 ```
 python train.py --gpu 0 --batch_size 14 --nocolor
 ```
@@ -63,5 +63,5 @@ We hope our implementation can serve as a baseline for wireframe rendering. If y
 ```
 
 ### Acknowledgement
-Part of our code is adapted from the [CycleGAN and pix2pix in PyTorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+Part of our code is adapted from [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 We also thank these great repos utilized in our code: [LPIPS](https://github.com/richzhang/PerceptualSimilarity), [MSSSIM](https://github.com/jorge-pessoa/pytorch-msssim), [SyncBN](https://github.com/vacancy/Synchronized-BatchNorm-PyTorch), 
