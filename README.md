@@ -1,5 +1,4 @@
-Pytorch implementation of ideas from the paper [Neural Wireframe Renderer: Learning Wireframe to Image Translations]
-(https://arxiv.org/pdf/1912.03840.pdf) by Yuan Xue, Zihan Zhou, and Xiaolei Huang
+Pytorch implementation of ideas from the paper [Neural Wireframe Renderer: Learning Wireframe to Image Translations](https://arxiv.org/pdf/1912.03840.pdf) by Yuan Xue, Zihan Zhou, and Xiaolei Huang
 
 # Dependencies
 * Tested on CentOS 7
