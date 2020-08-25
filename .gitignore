@@ -1,0 +1,8 @@
+results/
+data/images/
+data/wireframes/
+data/raw_data/imgs/
+data/raw_data/pointlines/
+*.pyc
+*.png
+
