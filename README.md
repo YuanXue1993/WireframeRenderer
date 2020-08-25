@@ -20,6 +20,7 @@ The processed data will be saved under the ``data`` folder.
 We support both single gpu training and multi-gpu training with Jiayuan Mao's [Synchronized Batch Normalization](https://github.com/vacancy/Synchronized-BatchNorm-PyTorch).
 
 **Example Single GPU Training**
+
 If you are training with colorguided rendering:
 ```
 python train.py --gpu 0 --batch_size 14
